@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["togachiro@gmail.com", "repeatedly@gmail.com"]
   gem.description   = %q{Fluentd plugin for Apache Kafka > 0.8}
   gem.summary       = %q{Fluentd plugin for Apache Kafka > 0.8}
-  gem.homepage      = "https://github.com/fluent/fluent-plugin-kafka"
+  gem.homepage      = "https://github.com/gozzip2009/fluent-plugin-kafka-custom-ruby-version"
   gem.license       = "Apache-2.0"
 
   gem.files         = `git ls-files`.split($\)
@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "fluentd", [">= 0.10.58", "< 2"]
   gem.add_dependency 'ltsv'
-  gem.add_dependency 'ruby-kafka', '0.6.7'
+  gem.add_dependency 'ruby-kafka', '>= 0.7.1', '< 0.8.0'
   gem.add_development_dependency "rake", ">= 0.9.2"
   gem.add_development_dependency "test-unit", ">= 3.0.8"
 end
