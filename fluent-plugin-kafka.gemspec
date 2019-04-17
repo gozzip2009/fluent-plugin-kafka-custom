@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["togachiro@gmail.com", "repeatedly@gmail.com"]
   gem.description   = %q{Fluentd plugin for Apache Kafka > 0.8}
   gem.summary       = %q{Fluentd plugin for Apache Kafka > 0.8}
-  gem.homepage      = "https://github.com/gozzip2009/fluent-plugin-kafka-custom-ruby-version"
+  gem.homepage      = "https://github.com/gozzip2009/fluent-plugin-kafka-custom"
   gem.license       = "Apache-2.0"
 
   gem.files         = `git ls-files`.split($\)
