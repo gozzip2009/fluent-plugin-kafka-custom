@@ -33,7 +33,7 @@ class Fluent::KafkaInput < Fluent::Input
   config_param :add_offset_in_record, :bool, :default => false
 
   config_param :offset_zookeeper, :string, :default => nil
-  config_param :offset_zk_root_node, :string, :default => '/fluent-plugin-kafka-custom-ruby-version'
+  config_param :offset_zk_root_node, :string, :default => '/fluent-plugin-kafka'
   config_param :use_record_time, :bool, :default => false,
                :desc => "Replace message timestamp with contents of 'time' field."
   config_param :time_format, :string, :default => nil,
